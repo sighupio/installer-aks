@@ -1,6 +1,6 @@
 <!-- BEGIN_TF_DOCS -->
 
-# Fury AKS Installer - vnet module
+# AKS Installer - vnet module
 
 <!-- <KFD-DOCS> -->
 

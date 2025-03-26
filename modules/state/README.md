@@ -1,6 +1,6 @@
 <!-- BEGIN_TF_DOCS -->
 
-# Fury AKS Installer - state module
+# AKS Installer - state module
 
 <!-- <KFD-DOCS> -->
 

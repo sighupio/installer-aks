@@ -1,6 +1,6 @@
 <!-- BEGIN_TF_DOCS -->
 
-# Fury AKS Installer - vpn module
+# AKS Installer - vpn module
 
 <!-- <KFD-DOCS> -->
 

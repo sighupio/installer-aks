@@ -1,4 +1,4 @@
-# Fury AKS Installer Example
+# AKS Installer Example
 
 This folder contains working examples of the terraform modules provided by this Fury Installer.
 

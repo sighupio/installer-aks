@@ -1,19 +1,23 @@
 <!-- markdownlint-disable MD033 -->
-<h1>
-    <img src="./docs/assets/fury_installer.png?raw=true" align="left" width="105" style="margin-right: 15px"/>
-    Fury AKS Installer
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/white-logo.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/black-logo.png">
+  <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/white-logo.png">
+</picture><br/>
+  AKS Installer
 </h1>
 <!-- markdownlint-enable MD033 -->
 
-![Release](https://img.shields.io/github/v/release/sighupio/fury-aks-installer?label=Latest%20Release)
-![License](https://img.shields.io/github/license/sighupio/fury-aks-installer?label=License)
+![Release](https://img.shields.io/github/v/release/sighupio/installer-aks?label=Latest%20Release)
+![License](https://img.shields.io/github/license/sighupio/installer-aks?label=License)
 [![Slack](https://img.shields.io/badge/slack-@kubernetes/fury-yellow.svg?logo=slack&label=Slack)](https://kubernetes.slack.com/archives/C0154HYTAQH)
 
 <!-- <KFD-DOCS> -->
 
-**Fury AKS Installer** deploys a production-grade Kubernetes Fury cluster on Azure Kubernetes Service (AKS).
+**AKS Installer** deploys a production-grade SIGHUP Distribution cluster on Azure Kubernetes Service (AKS).
 
-If you are new to Kubernetes Fury please refer to the [official documentation][kfd-docs] on how to get started.
+If you are new to SIGHUP Distribution please refer to the [official documentation][sd-docs] on how to get started.
 
 ## Modules
 
@@ -30,11 +34,7 @@ Click on each module to see its full documentation.
 
 ## Architecture
 
-**Fury AKS Installer** deploys and configures a production-ready AKS cluster without having to learn all internals of the service.
-
-![Fury Architecture](./docs/assets/fury_installer_architecture.png)
-
-The [AKS module][aks-module] deploys a **private control plane** cluster, where the control plane endpoint is not publicly accessible.
+The [AKS module][aks-module] deploys an **AKS** cluster.
 
 The [VNet module][vnet-module] setups all the necessary networking infrastructure.
 
@@ -80,11 +80,11 @@ Please refer to each module documentation and the [examples](examples/) folder f
 <!-- Links -->
 
 [aks-installer-docs]: https://docs.kubernetesfury.com/docs/installers/managed/aks/
-[aks-module]: https://github.com/sighupio/fury-aks-installer/tree/master/modules/aks
-[vnet-module]: https://github.com/sighupio/fury-aks-installer/tree/master/modules/vnet
-[vpn-module]: https://github.com/sighupio/fury-aks-installer/tree/master/modules/vpn
-[state-module]: https://github.com/sighupio/fury-aks-installer/tree/master/modules/state
-[kfd-docs]: https://docs.kubernetesfury.com/docs/distribution/
+[aks-module]: https://github.com/sighupio/installer-aks/tree/master/modules/aks
+[vnet-module]: https://github.com/sighupio/installer-aks/tree/master/modules/vnet
+[vpn-module]: https://github.com/sighupio/installer-aks/tree/master/modules/vpn
+[state-module]: https://github.com/sighupio/installer-aks/tree/master/modules/state
+[sd-docs]: https://docs.kubernetesfury.com/docs/distribution/
 
 [furyagent]: https://github.com/sighupio/furyagent
 [tunnelblick]: https://tunnelblick.net/downloads.html
@@ -95,7 +95,7 @@ Please refer to each module documentation and the [examples](examples/) folder f
 
 ### Reporting Issues
 
-In case you experience any problem with the module, please [open a new issue](https://github.com/sighupio/fury-aks-installer/issues/new).
+In case you experience any problem with the module, please [open a new issue](https://github.com/sighupio/installer-aks/issues/new).
 
 ## License
 
