@@ -13,7 +13,7 @@
 ![License](https://img.shields.io/github/license/sighupio/installer-aks?label=License)
 [![Slack](https://img.shields.io/badge/slack-@kubernetes/fury-yellow.svg?logo=slack&label=Slack)](https://kubernetes.slack.com/archives/C0154HYTAQH)
 
-<!-- <KFD-DOCS> -->
+<!-- <SD-DOCS> -->
 
 **AKS Installer** deploys a production-grade SIGHUP Distribution cluster on Azure Kubernetes Service (AKS).
 
@@ -90,7 +90,7 @@ Please refer to each module documentation and the [examples](examples/) folder f
 [tunnelblick]: https://tunnelblick.net/downloads.html
 [openvpn-connect]: https://openvpn.net/vpn-client/
 
-<!-- </KFD-DOCS> -->
+<!-- </SD-DOCS> -->
 <!-- <FOOTER> -->
 
 ### Reporting Issues
